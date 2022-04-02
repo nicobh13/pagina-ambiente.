@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* CSS Document */
+.rect4{
+	border-radius:10% 20% 10% 20%;
+	background-color:#967477;
+	width:200px;
+	height:50px;
+	}
+.more{
+	color: #000000;
+	text-align: center;
+	font-family:aclonica;
+	font-weight:bold;
+	font-size: 16px;
+	padding-top:10px;
+	}
+.rect3{
+	border-radius:10% 20% 10% 20%;
+	background-color:#d5a494;
+	width:700px;
+	height:130px;
+}
+.rect2{
+	border-radius:10%;
+	background-color:#1AAFBA;
+	width:200px;
+	height:50px;
+}
+.rect1{
+	border-radius:10%;
+	background-color:#417979;
+	width:200px;
+	height:50px;
+}
+.rect{
+	border-radius:10% 20% 10% 20%;
+	background-color:#d5a494;
+	width:500px;
+	height:80px;
+	padding-left:100px;
+}
+.paraggr{
+	text-align: justify;
+	font-family: courier new;
+	padding-left:100px;
+	padding-right:100px;
+	font-size:18px
+}
+.bg{
+	margin:0px;
+	background-color:#c4ffcb;
+}
+.contact{
+	font-family:courier new;
+	font-size:12px;
+}
+.f-texttitle{
+	text-align:center;
+	font-family:aclonica;
+	color:#000000;
+	font-size: 16px;
+	padding-left:50px;
+	padding-right:50px;
+	vertical-align:top;
+}
+
+.f-text{
+	text-align:justify;
+	font-family:courier new;
+	color:#000000;
+	font-size: 12px;
+	padding-left:50px;
+	padding-right:50px;
+	font-weight:bold;
+}
+.image{
+	width:650px;
+}
+.link{
+	color:#004717;
+	font-family:aclonica;
+}
+.paragr{
+	text-align: justify;
+	font-family: courier new;
+	padding-left:10px;
+	padding-right:50px;
+	font-size:18px
+}
+.home{
+	width:60px;
+	height:auto;
+}
+.h1{
+	margin:0px;
+	height:100px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	font-family:aclonica;
+	text-align:center;
+	vertical-align:center;
+	font-size:28px;
+	color:#000000;
+	background-color:#568487;
+}
+.inp-text{
+	color: #000000;
+	text-align: center;
+	font-family:aclonica;
+	font-weight:bold;
+	font-size: 16px;
+	}
+.img-title{
+	font-size: x-large;
+	text-align:center;
+	color: #000000;
+	font-style: normal;
+	font-family: aclonica;
+	font-weight: 400;
+	}
+.div{
+	align-content: center;
+	text-align: center;
+	align-items: center;
+}
+.hvr-appear {
+	display: inline-block;
+  vertical-align: middle;
+	opacity:0;
+	align-items: center;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  overflow:hidden;
+  -webkit-transition-duration: 10s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: opacity, background-color;
+  transition-property: opacity, background-color;
+}
+.hvr-appear:hover, .hvr-appear:focus, .hvr-appear:active {
+  background-color: #05C8A8;
+  color: black;
+	opacity:100;
+}
+.hvr-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  overflow:hidden;
+  -webkit-transition-duration: 10s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-color: #05C8A8;
+  color: white;
+	opacity: 0;
+}
+.img{
+	width:190px;
+	left:11%;
+	position:sticky;
+	}
+.container{
+	margin:0px;
+}
+.footer{
+	background-color:#39EDA2;
+	margin:0px;
+	alignment-baseline:baseline;
+}
+.h6{
+	margin:0px;
+	text-align:center;
+	vertical-align:center;
+	font-size:36px;
+	color:#000000;
+}
+.title{
+	background-color:#39EDA2;
+	height:100px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	font-family:aclonica;
+}
+a{
+	text-decoration:none;
+}
+.social-media{
+	width:20px;
+	height:20px;
+}
+.circle-3{
+	border-radius:100%;
+	background-color:#417979;
+	width:300px;
+	height:306px;
+}
+.circle-2{
+	
+	border-radius:100%;
+	background-color:#967477;
+	width:300px;
+	height:306px;
+}
+.circle-1{
+	border-radius:100%;
+	background-color:#1AAFBA;
+	width:300px;
+	height:306px;
+}
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
